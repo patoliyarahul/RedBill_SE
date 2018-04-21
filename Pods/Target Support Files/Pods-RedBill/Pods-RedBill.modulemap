@@ -1,6 +1,0 @@
-framework module Pods_RedBill {
-  umbrella header "Pods-RedBill-umbrella.h"
-
-  export *
-  module * { export * }
-}
