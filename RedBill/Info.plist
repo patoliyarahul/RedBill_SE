@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>RedBill</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>5.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb177422336219603</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>FacebookAppID</key>
+	<string>177422336219603</string>
+	<key>FacebookDisplayName</key>
+	<string>RedBill</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>This app requires access to the camera.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This app requires access to the photo library.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app requires access to the photo library.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Proxima Nova Alt Black.otf</string>
+		<string>Proxima Nova Alt Bold.otf</string>
+		<string>Proxima Nova Alt Condensed Black.otf</string>
+		<string>Proxima Nova Alt Condensed Bold.otf</string>
+		<string>Proxima Nova Alt Condensed Thin.otf</string>
+		<string>Proxima Nova Alt Light.otf</string>
+		<string>Proxima Nova Alt Regular.otf</string>
+		<string>Proxima Nova Black.otf</string>
+		<string>Proxima Nova Bold.otf</string>
+		<string>Proxima Nova Condensed Thin.otf</string>
+		<string>Proxima Nova Extrabold.otf</string>
+		<string>Proxima Nova ScOsf Bold.otf</string>
+		<string>Proxima Nova ScOsf Light.otf</string>
+		<string>Proxima Nova ScOsf Regular.otf</string>
+		<string>Proxima Nova ScOsf Thin.otf</string>
+		<string>Proxima Nova Thin.otf</string>
+		<string>ProximaNova-Regular.otf</string>
+		<string>Formata-Italic.otf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
